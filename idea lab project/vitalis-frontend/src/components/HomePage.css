@@ -1,0 +1,95 @@
+.homepage-container {
+  background: #020617;
+}
+.homepage-header {
+  background: linear-gradient(rgba(2, 6, 23, 0.8), rgba(2, 6, 23, 1)), url('https://placehold.co/1200x600/0f172a/334155?text=Medical+Tech+Background') no-repeat center center/cover;
+  padding: 1.5rem 5%;
+  color: white;
+}
+.homepage-header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+.homepage-header nav h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.login-button {
+  background-color: #334155;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.3s;
+}
+.login-button:hover {
+  background-color: #475569;
+}
+.hero-section {
+  text-align: center;
+  padding: 4rem 0;
+}
+.hero-section h2 {
+  font-size: 3.5rem;
+  font-weight: 800;
+}
+.hero-section p {
+  font-size: 1.25rem;
+  max-width: 600px;
+  margin: 1rem auto;
+  color: #cbd5e1;
+}
+.cta-button {
+  display: inline-block;
+  background-color: #2563eb;
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-top: 2rem;
+  transition: background-color 0.3s;
+}
+.cta-button:hover {
+  background-color: #1d4ed8;
+}
+.homepage-main {
+  padding: 4rem 5%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.homepage-main section {
+  margin-bottom: 4rem;
+}
+.homepage-main h3 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #e2e8f0;
+}
+.homepage-main p {
+  text-align: center;
+  color: #94a3b8;
+  line-height: 1.6;
+}
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+.feature-card {
+  background-color: #0f172a;
+  padding: 2rem;
+  border-radius: 12px;
+  border: 1px solid #1e293b;
+  text-align: center;
+}
+.feature-card h4 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  color: #f1f5f9;
+}

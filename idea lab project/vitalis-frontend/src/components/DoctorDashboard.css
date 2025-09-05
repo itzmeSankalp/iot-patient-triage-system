@@ -1,0 +1,103 @@
+.doctor-dashboard-container {
+  padding: 2rem;
+}
+.doctor-dashboard-container header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.patient-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 1.5rem;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+.patient-card {
+  display: flex;
+  background-color: #1e293b;
+  border-radius: 12px;
+  padding: 1rem;
+  border-left: 8px solid;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.triage-signal {
+  width: 10px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  margin-right: 1rem;
+}
+.triage-signal.stable { background-color: #22c55e; }
+.triage-signal.warning { background-color: #f59e0b; }
+.triage-signal.critical { background-color: #ef4444; }
+
+.patient-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.patient-info {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    cursor: pointer;
+}
+.priority-number {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #64748b;
+}
+.patient-name-id h3 { margin: 0; font-size: 1.5rem; }
+.patient-name-id p { margin: 0; color: #94a3b8; }
+
+.patient-vitals {
+    display: flex;
+    justify-content: space-between;
+    background-color: #0f172a;
+    padding: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.patient-vitals div { font-size: 1rem; color: #94a3b8; }
+.patient-vitals div span { font-weight: bold; font-size: 1.5rem; color: white; margin-left: 0.5rem; }
+
+.patient-status {
+    font-size: 0.9rem;
+    color: #cbd5e1;
+}
+.status-text {
+    font-weight: 600;
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+    background-color: #334155;
+}
+
+.patient-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1rem;
+  border-top: 1px solid #334155;
+}
+.status-dropdown {
+  background-color: #334155;
+  color: white;
+  border: 1px solid #475569;
+  border-radius: 6px;
+  padding: 0.5rem;
+  font-family: inherit;
+  font-size: 0.9rem;
+}
+.discharge-button {
+  background-color: #dc2626;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.2s;
+}
+.discharge-button:hover {
+  background-color: #b91c1c;
+}

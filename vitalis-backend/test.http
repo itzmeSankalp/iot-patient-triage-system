@@ -1,0 +1,10 @@
+### Add a new patient
+POST http://localhost:5000/api/patients
+Content-Type: application/json
+
+{
+  "name": "Jane Smith",
+  "age": 52,
+  "gender": "Female",
+  "chiefComplaint": "Severe headache"
+}
